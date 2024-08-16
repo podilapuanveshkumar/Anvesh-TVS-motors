@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .body {
+            background-color: black;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        .navbar {
+            text-align: right;
+            padding-right: 5%;
+            margin-top: 0%;
+            padding-left: 1% 3%;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: rgb(27, 26, 26);
+            justify-content: space-between;
+            margin-top: 10%;
+        }
+        .tvs {
+            padding: 1.7% 2.5%;
+            display: flex;
+            padding-top: 1.5%;
+        }
+
+        .motor_container {
+            padding-right: 2px;
+        }
+
+        .motor {
+            padding-right: 5%;
+            margin-top: 1%;
+            padding-left: 3%;
+
+        }
+
+        .motor a {}
+        .tvs{
+            padding: 1.7% 2.5%;
+            display: flex;
+            padding-top: 1.5%;    
+        }
+        .motor_container{
+            padding-right: 2px;
+        }
+        .motor{
+            padding-right: 5%;
+            margin-top: 1%;
+            padding-left: 3%;
+            
+        }
+        .motor a{
+            padding: 7px;
+            color: rgba(0, 0, 0, 0.986);
+            text-decoration: none;
+            margin: 2px;
+        }
+
+        .motor img {
+            margin-bottom: -1%;
+        }
+
+        .motor_container {
+            padding-top: 1.1%;
+        }
+
+        .motor_container i {
+            justify-content: space-between;
+        }
+
+        .motor_container i .fa-user {
+            font-size: 6px;
+        }
+
+        .position {
+            margin: auto;
+            background-color: orangered;
+            color: white;
+            margin: 0%;
+            margin-right:35%;
+            padding: 1% 4.5%;
+            
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+        .container img {
+            width: 16%;
+        }
+        .motor img{
+            margin-bottom: -1%;
+        }
+        .motor_container{
+            padding-top: 1.1%;
+         }
+        .motor_container i{
+            justify-content: space-between;
+        }
+        .motor_container i .fa-user{
+            font-size: 6px;
+        }
+        .position{
+            padding:1% 4.5%;
+            margin: auto;
+            background-color: orangered;
+            color:white;
+            margin: 0%;
+            margin-right: 35%;
+        }
+        .container{
+            display:flex;
+            justify-content: center;
+        }
+        .container img{
+            width:16%;
+            display: flex;
+            padding: 2%;
+            justify-content: center;
+        }
+        .apple {
+            margin: auto;
+            background-color: blue;
+            color: white;
+            margin: 0%;
+            margin-right:35%;
+            padding: 1% 4.5%;    
+        }
+        .banana a {
+            color: black;
+            text-decoration: none;
+            justify-content: center;
+            justify-content: space-evenly;
+            padding: 2%;      
+        }
+        .banana{
+            padding: 3% 1.7%;
+        }
+        .jupiter{
+            display: flex;
+        }
+        .scooters{
+            background-color: rgb(250, 246, 246);
+        }
+        .images{
+            flex-direction: column;
+            margin: 1% ;           
+        }
+        .figure {
+            padding-left: 10%;
+        }
+        .section{
+            display: flex;
+            background-color: white;
+            margin-bottom: 2.7%;
+            margin-left: 6%;
+        }
+        .india{
+            display: flex;
+            background-color: white;
+            margin-bottom: 2.7%;
+            margin-left: 6%;
+        }
+        .command{
+            display: flex;
+            background-color: white;
+            margin-bottom: 2.7%;
+            margin-left: 6%;
+        }
+        .america{
+            display: flex;
+            background-color: white;
+            margin-bottom: 2.7%;
+            margin-left: 6%;
+        }
+        .japan{
+            display: flex;
+            background-color: white;
+            margin-bottom: 2.7%;
+            margin-left: 6%;
+        }
+        .pic{
+            margin: 1.8%;
+            border: solid gray thin;
+        }
+        .show-room{
+            display: flex;
+            margin: 0% 5%;
+        }
+        .more{
+            padding-left: 35%;
+        }
+        .flex{
+            padding-left: 30%;
+        }
+        .lo{
+            background-color: white;
+        }
+        .types{
+            padding: 2.3% 19%;
+            background-color: rgb(10, 10, 66);
+            color: white;
+            margin: 4%;
+            margin-right: 35%;
+        }
+        .ride{
+            margin: auto;
+            background-color:orangered;
+            color: white;
+            margin: 0%;
+            margin-right:35%;
+            padding: 1% 4.5%;
+        }
+        .matter{
+            margin:2% 4%;
+            color: gray;
+        }
+        .location{
+            padding: 2% 40%;
+            color: white;
+        }
+        .location h4{
+            margin-top: -7%;
+        }
+        .location i{
+            width:20px;
+        }
+        .solid{
+            display: flex;
+        }
+        .small img{
+            width: 20%;
+            flex-direction: column;
+            padding: 1.5%;
+        }
+        .small{
+            margin-left: 10.5%;
+        }
+        .fa-location-dot{
+            font-size: 2rem;
+        }
+        .scooty img{
+            width: 10px;
+        }
+        .middle{
+            background-color: rgb(41, 34, 34);
+            /* background-width: 50px; */
+        }
+        .matter1{
+            color: white;
+            margin-top:-8%;
+            margin-left: 12%;
+        }
+        .matter2{
+            color:white;
+            margin-top: -6%;
+            margin-left: 33%;
+        }
+        .matter3{
+            color: white;
+            margin-top: -6%;
+            margin-left: 54%;
+        }
+        .matter4{
+            color: white;
+            margin-top: -6%;
+            margin-left: 75%;
+        }
+        .hr{
+            color: gray;
+            padding: 2% 3%;
+        }
+        .matter5{
+            color: white;
+            justify-content: center;
+        }
+        .dealer{
+            padding: 1% 38%;
+        }
+        .sell{
+            padding: 0% 9%;
+            padding-top: -2%;
+        }
+        .income{
+            padding: 0% 9%;
+        }
+        .matter6{
+            background-color: blue;
+            margin: auto;
+            color: white;
+            margin: 3% -1%;
+            margin-right: 35%;
+            padding: 1% 4.5%;
+        }
+        .racing{
+            width: 102%;
+            margin: -3% -1%;
+        }
+        .since{
+            margin-top: -21%;
+            color: white;
+            margin-left: 35%;
+        }
+        .race{
+            margin-top:-1%;
+            color: white;
+            margin-left: 34%;
+        }   
+        .click{
+            color: white;
+            margin-left: 40%;
+        }
+        .page{
+            margin-left: 43%;
+        }
+        .guides{
+            background-color: orangered;
+            color: white;
+            margin: -3% -1%;
+            margin-right: 35%;
+            padding: 1% 4.5%;
+            margin-top: 10%;
+        }
+        .matter7{
+            margin-top: 5.5%;
+            margin-left: 3%;
+            color: gray;
+        }
+        .matter8{
+            margin-left:3% ;
+            color: gray;
+        }
+        .matter9{
+            margin-left: 3%;
+            color: gray;
+        }
+        .images3{
+            width: 28.9%;
+            padding: 2% 3%;
+        }
+        .images4{
+            width: 28.9%;
+            padding: 2% 0%;
+        }
+        .images5{
+            width: 28.9%;
+            padding: 2% 3%;
+        }
+        .million{
+            margin: -1% 5%;
+        }
+        .a50{
+            margin: 1% 5%;
+        }
+        .road{
+            margin: -0.5% 5%;
+            color:rgb(61, 59, 59);
+        }
+        .for{
+            margin: 1% 5%;
+            color:rgb(61, 59, 59);
+        }
+        .number{
+            margin: -0% 5%;
+            color:rgb(61, 59, 59);
+        }
+        .a{
+            margin:-9% 40%;
+        }
+        .the{
+            margin:9.5% 38% ;
+        }
+        .to{
+            margin: -9% 38%;
+        }
+        .is{
+            margin: 9.5% 38%;
+        }
+        .in{
+            margin: -17% 0%;
+            margin-left: 71%;
+        }
+        .are{
+            margin: 17.5% 0%;
+            margin-left: 71%;
+        }
+        .this{
+            margin: -17% 0%;
+            margin-left: 71%;
+        }
+        .print{
+            margin: 18% 0%;
+            margin-left: 71%;
+        }
+        .more{
+            color: white;
+            text-align: center;
+            margin-right: 11.9%;
+        }
+        .matter11{
+            background-color: blue;
+            border: solid blue;
+            align-items: center;
+            margin-left: 38%;
+            margin-right: 30%;
+        }
+        .pride{
+            margin: 4% 4%;
+        }
+        .achievements{
+            margin: -4% 4%;
+        }
+        .awards{
+            margin: 8% 3%;
+        }
+        .image6{
+            padding-left: 10%;
+            padding-bottom: -15%;
+        }
+        .image7{
+            margin-left: 14%;
+        }
+        .image8{
+            padding-left: 11%;
+        }
+        .tags1{
+            margin: 2% 6.5%;
+        }
+        .tags2{
+            margin: -1.5% 6.5%;
+        }
+        .tags3{
+            margin: -3.5% 39%;
+        }
+        .tags4{
+            margin: 0% 39%;
+            margin-top: 4%;
+        }
+        .tags5{
+         padding-left: 71%;
+         margin: -3.5% 0%;
+        }
+        .tags6{
+            padding-left: 71%;
+            margin: 4% 0%;
+        }
+        .html{
+            background-color: blue;
+            color: white;
+            margin-left: 28%;
+            margin-right: 28%;
+        }
+        .html2{
+            margin: 35% 45%;
+        }
+        .horse img{
+            background-color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="">
+            <i class="fa-solid fa-mobile-screen"></i>&nbsp
+            Booking&nbsp&nbsp&nbsp
+        </a>
+        <a href="">
+            <i class="fa-solid fa-motorcycle"></i>&nbsp
+            Test Ride&nbsp&nbsp&nbsp
+        </a>
+        <a href="">
+            <i class="fa-solid fa-location-dot"></i>&nbsp
+            Dealer Locator&nbsp&nbsp&nbsp
+        </a>
+        <span class="s">
+            <select id="">
+                <option value="">India</option>
+                <option value="">america</option>
+                <option value="">Pakistan</option>
+            </select>
+        </span>
+    </nav>
+    <nav class="tvs">
+        <img src="https://www.tvsmotor.com/-/media/Feature/Header/TVSLogo-hr.svg?la=en&hash=034409D6FBB73C2421FCC22BC6A52B58"
+            alt="tvslogo" />
+        <div class="motor">
+            <a href="">
+                ABOUT US
+            </a>
+            <a href="">
+                OUR PRODUCTS OUR SERVICE INVESTORS
+            </a>
+            <a href="">
+                SUSTAINBILITY
+            </a>
+            <a href="">
+                MEDIA
+            </a>
+            <a href="">
+                INTERNATIONAL SHOP
+            </a>
+            <img src="https://www.tvsmotor.com/-/media/TVSv2/10-05-23/tvs-racing-logo-img.webp?la=en&h=20&w=116&hash=E63D0A2DDC9FE7F7288F9EDC6314DA34"
+                alt="" />
+        </div>
+        <div class="motor_container">
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-cart-flatbed-suitcase"></i>
+        </div>
+    </nav>
+    <div class="tvs_motor">
+        <img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/316_RTR-160-2V-Red-Alloy-Variant_1366-X-600-pix.webp"
+            alt="" />
+    </div>
+    <div class="position">
+        <h4>THE MAKING OF</h4>
+        <h1>OUR STORIES</h1>
+    </div>
+    <div class="container">
+        <img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Story/MotoSoul_436x786.webp"
+            alt="" />
+        <img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Story/Engineering-Goosebumps_D.webp"
+            alt="" />
+        <img src="https://www.tvsmotor.com/-/media/Feature/Our-Stories/25-04-24/CE-EY-Entrepreneur-786x436px-webp.webp"
+            alt="" />
+        <img src="https://www.tvsmotor.com/-/media/Feature/Our-Stories/05-04-24/Activation-Thumbnail-436X786.webp"
+            alt="" />
+    </div>
+    <div class="apple">
+        <h4>DISCOVERY YOUR RIDE</h4>
+        <h1>VEHICLES</h1>
+    </div>
+    <div class="scooters">
+        <div class="banana">
+            <a href="">
+                SCOOTERS
+            </a>
+            <a href="">
+                MOTOR CYCLE
+            </a>
+            <a href="">
+                MOPEDS
+            </a>
+            <a href="">
+                ELECTRIC
+            </a>
+            <a href="">
+                THREE WHEELERS
+            </a>
+        </div>
+        <div class="jupiter">
+            <div class="image">
+            <div class="section">
+                <img class="pic" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/Scooters/TVS-Jupiter-125_ZKF_128x64.webp?la=en&hash=072FE270084FEB615A18B53DA7A9D60E"
+                    alt="" />
+                <h3>TVS jupiter 125</h3>
+                <h5>124.76cc| 6kw @ 6500 rpm|</h5>
+                <h5>108 kgs</h5>
+            </div>
+            <div class="india">
+                <img class="pic" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/Scooters/logo_TVS_Ntorq_125_new.webp?la=en&hash=D7D86610B50F50AEBED13E94E53039BF"
+                    alt="" />
+                <h3>TVS Ntorq</h3> 
+                <h5>124.8 cc| 6.9 kw @ 7000 rpm |</h5>
+                <h5>110 kgs</h5>
+            </div>
+            <div class="command">
+                <img class="pic" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/Scooters/logo_TVS-Jupiter.webp?la=en&hash=ABCB6CD3EEC1F7E18172E75ABA7DBF4A"
+                    alt="" />
+                <h3>TVS jupiter</h3>
+                <h5>109.7 cc| 6.9 kw @ 7500 rpm |</h5>
+                <h5>107 kgs</h5>
+            </div>
+            <div class="america">
+                <img  class="pic" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/128x64.webp?la=en&hash=AC7A6F0E3BF205B4202E451968E15647"
+                    alt="" />
+                <h3>TVS Zest 110</h3>
+                <h5>109.7 cc| 5.75 kw @ 7500 rpm|</h5>
+                <h5>103 kgs</h5>
+            </div>
+            <div class="japan">
+                <img class="pic" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/Scooters/logoScooty-Pep.webp?la=en&hash=C397A03A8A904220514285652EBD1953"
+                    alt="" />
+                <h3>TVS Scooty pep+</h3>
+                <h5>87.8 cc| 4.0 kw @6500 rpm</h5>
+                <h5>93 kgs</h5>
+            </div>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/Scooters/TVS-Jupiter125_890x484.webp?la=en&hash=5EF0CBD11ED924C32FF693B6774FEC2C"
+                        alt="" />
+                        <div class="lo">
+                    <div class="show-room">
+                        <h3>TVS Jupiter 125</h3>
+                        <h5 class="flex">Ex showroom,Delhi
+                            $79299 onwards</h5>
+                        <h5 class="more">KNOW MORE</h5>
+                    </div>
+                    </div>
+                    <div class="types">
+                        <h4>View All Scooters</h4>
+                    </div>
+                </figure>
+             </div>
+            </div>
+        </div>
+        <div class="ride">
+            <h5>Find A Ride Nera You</h5>
+            <h1>DEALERS</h1>
+        </div>
+        <p class="matter">Find your neraest authorized TVS Motor dealer with our easy to interactive tool.Get all details including phone numbers,adress,map and driving directions.</p>
+        <div class="middle">
+        <div class="location">
+            <div class="solid">
+            <i style="margin-top: 10%;" class="fa-solid fa-location-dot"></i>
+            <h1>4000+</h1>
+            </div>
+            <h4>Dealers Acroos india</h4>
+        </div>
+        <div class="small">
+            <img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Website-Banner-Desktop-303-x-255-Pix-4.webp" alt="">
+            <img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/02.webp" alt="">
+            <img  class="scooty" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Vehicles/EV/iQube_ST_434x261px-20240627-101920.webp" alt="">
+            <img src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/04.webp" alt="">
+        </div>
+        <div class="matter1">
+            <h3>TWO-WHEELER</h3>
+            <h4>Delears near you></h4>
+        </div>
+        <div class="matter2">
+            <h3>THREE-WHEELER</h3>
+            <h4>Delears near you ></h4>
+        </div>
+        <div class="matter3">
+            <h3>ELECTRIC VEHICLE</h3>
+            <h4>Dealears near you ></h4>
+        </div>
+        <div class="matter4">
+            <h3>SUPER PREMIUM</h3>
+            <h4>Dealers near you ></h4>
+        </div>
+        <hr>
+        <div class="matter5">
+            <h3 class="dealer">BECOME A TVS MOTOR DEALER ></h3>
+            <h4 class="sell">partnering with TVSM gives you the oppturnity to sell diversified products to possible  the set of customers, thus maximizing profits. Becoming a TVSM dealer</h4>
+            <h4 class="income" >could also offer a good supplementary business to your existing business, with an asssured income every month at a miniral intial investment in infrastructure</h4>
+        </div>
+        </div>
+        <div class="matter6">
+            <h4>WINNER AT HEART</h4>
+            <h1>RACING</h1>
+        </div>
+        <div>
+            <img class="racing" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/home-page-imgs/racing-hero-01.webp" alt="">
+        </div>
+        <div>
+        <h1 class="since">DOMINANCE IN THE INDIAN</h1>
+        <h1 class="race">RACING CIRCUIT SINCE 1982</h1>
+        <h4 class="click">click here and enter the TVS Racing world</h4>
+        </div>
+        <div>
+            <img class="page" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/home-page-imgs/tvs-racing-logo-button.webp?v=1" alt="">
+        </div>
+        <div class="guides">
+            <h5>WHAT GUIDES US</h5>
+            <h1>ABOUT US</h1>
+        </div>
+        <p class="matter7">WE are commited to being a highly profitable,social responsiblr,and leading manfacture of high value for money</p>
+        <p class="matter8">envirnomentally friendly,lifetime personal transporation products under the TVSM brand,for customers predominantly in asian</p>
+        <p class="matter9">markets and to provide fulfilment and prosperity for employees,dealers,and suppliers</p>
+        </div>
+        <div>
+            <img class="images3" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/About-Us/50-Million.webp?la=en&hash=167AFBA598B2BCB3E8B876B6F3AED0CE" alt="">
+            <img class="images4" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/About-Us/TVS-BAU---website-banner1_434-x-261.webp?la=en&hash=504C557AD30C4003AFB4F773CE7E7103" alt="">
+            <img class="images5" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/About-Us/presencein60countries-2.webp?la=en&hash=501FF173E5502F7C1A617F8CC871153F" alt="">
+        </div>
+        <div>
+            <h3 class="million">MORE THAN 50 MILLION VEHICLES </h3>
+            <h3 class="a50"> ON ROAD</h3>
+            <h4 class="road">with more than 50 millions vehicles on road</h4>
+            <h4 class="for">TVSM celebrating mobilkity and progress for</h4>
+            <h4 class="number">countless number of people</h4>
+        </div>
+        <div>
+            <h3 class="a">A VEHICLE FOR EVERYONE</h3>
+            <h4 class="the">with the largest portfolio of products,rangling</h4>
+            <h4 class="to">from mopeds to premium performance bikes,</h4>
+            <h4 class="is">TVSM has a vehicle that is perfectly fit for you</h4>
+        </div>
+        <div>
+            <h3 class="in">PRESENCE IN 80+ COUNTRIES</h3>
+            <h4 class="are">TVSM vehivcles are providing joy to customers</h4>
+            <h4 class="this">across more than 80 countries,and this</h4>
+            <h4 class="print">footprint is only growing</h4>
+        </div>
+        <div class="matter11">
+            <h4 class="more">MORE ABOUT TVS MOTORS</h4>
+        </div>
+        <hr>
+        <div>
+            <h4 class="pride">our pride</h4>
+            <h1 class="achievements">ACHIEVEMENTS</h1>
+            <h3 class="awards">AWARDS</h3>
+        </div>
+        <div>
+            <img  class="image6" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Achievements/IMG_20220704_183308.webp?la=en&hash=9E0C39E2FD7DF25C2F15C67A33694327" alt="">
+            <img class="image7" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Achievements/IMG_20220704_183318.webp?la=en&hash=8E3616FF1B56F87624E962CD8D0F018C" alt="">
+            <img class="image8" src="https://www.tvsmotor.com/-/media/HomeOptimizedImages/TVS-Home-Page-WebP/Desktop/Achievements/8.webp?la=en&hash=1864D1ADC7D13C59A8085B90D4D501E9" alt="">
+        </div>
+        <div>
+            <h3 class="tags1">COMMUTER OF THE YEAR</h3>
+            <h4 class="tags2">commuter of the year -TVS Raider 125</h4>
+            <h3 class="tags3"> MOTORCYCLE OF THE YEAR</h3>
+            <h4 class="tags4">motorcycle of the year-TVS Raider 125</h4>
+            <h3 class="tags5">BIKE AWARDS-2019</h3>
+            <h4 class="tags6">Two Wheeler manufacture of the year</h4>
+        </div>
+        <div class="html">
+            <h4 class="html2">VIEW AWARDS</h4>
+        </div>
+        <div class="last">
+            <img  class="horse"src="https://www.tvsmotor.com/-/media/TVSv2/FooterRevamp/TVS-Logo_SVG.svg" alt="">
+            <span class="i">
+                <select id="">
+                    <option value="">India</option>
+                    <option value="">america</option>
+                    <option value="">Pakistan</option>
+                </select>
+            </span>
+            <div>
+                <h3 class="tag7">MOTOR CYCLES</h3>
+                <h4 class="tag8">TVS Apache</h4>
+                <p class="tag9">. RTR 310<br>
+                . RR310<br>
+                . RTR 200 4V<br>
+                . RTR 180<br>
+                . RTR 160 4V<br>
+                . RTR 160</p>
+                <p>Ronin<br>
+                Raider<br>
+                Radeon<br>
+                Sport<BR>
+                Start City+</p>
+            </div>
+            <div>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
